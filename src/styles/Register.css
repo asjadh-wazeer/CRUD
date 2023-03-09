@@ -1,0 +1,78 @@
+.register__section {
+  width: 520px;
+  background-color: aliceblue;
+  padding: 14px 24px;
+  border-radius: 8px;
+  margin: 0 auto;
+  margin-top: 44px;
+}
+.text__input__box {
+  width: 100%;
+  margin-top: 32px;
+}
+.register__policy__para {
+  font-weight: 300;
+  text-align: center;
+  margin-top: 36px;
+}
+.register__policy__para span {
+  font-weight: 700;
+  color: #0a66c2;
+  text-align: center;
+  cursor: pointer;
+}
+.join__button {
+  width: 100%;
+  background-color: #0a66c2;
+  padding-top: 18px;
+  padding-bottom: 18px;
+
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 26px;
+
+  margin: 32px 0;
+}
+
+.register__with__google__button__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(58, 58, 58);
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border-radius: 26px;
+  margin-top: 34px;
+  cursor: pointer;
+}
+.register__with__google__button__container p {
+  color: rgb(58, 58, 58);
+  font-weight: 600;
+  margin-left: 8px;
+}
+.register__with__google__button__container img {
+  width: 20px;
+}
+.already__have__an__account__text {
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+}
+.already__have__an__account__text span {
+  font-weight: 700;
+  color: #0a66c2;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 630px) {
+  .register__section {
+    width: 80%;
+  }
+  .register__policy__para {
+    font-size: 14px;
+  }
+  .already__have__an__account__text {
+    margin-top: 34px;
+  }
+}
