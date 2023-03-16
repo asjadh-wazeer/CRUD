@@ -2,10 +2,12 @@ import React from "react";
 import TextField from "@mui/material/TextField";
 
 import "../styles/Register.css";
+import Sidebar from "../components/Sidebar";
 
 function Register() {
   return (
-    <div className="register__section">
+  <Sidebar>
+      <div className="register__section">
       <div className="text__input__box">
         <TextField
           id="outlined-basic"
@@ -58,6 +60,7 @@ function Register() {
         Already have an account? <span>Sign in</span>
       </p>
     </div>
+  </Sidebar>
   );
 }
 
